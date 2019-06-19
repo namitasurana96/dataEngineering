@@ -1,0 +1,43 @@
+firstname = input("Enter your full name: \n")
+namelist=firstname.split(" ")
+print ("Reverse name:"+namelist[-1]+" "+namelist[0])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
