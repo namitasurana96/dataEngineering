@@ -8,3 +8,5 @@ data = pd.read_csv(dataurl)
 print(data)
 sb.swarmplot(x="day", y="total_bill", data=data)
 plt.show()
+
+sb.

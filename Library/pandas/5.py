@@ -7,5 +7,5 @@ exam_data  = {'name': ['Anastasia', 'Dima', 'Katherine', 'James', 'Emily', 'Mich
         'qualify': ['yes', 'no', 'yes', 'no', 'no', 'yes', 'yes', 'no', 'no', 'yes']}
 labels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
 print(exam_data)
-df=pd.DataFrame(exam_data,['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'])
+df=pd.DataFrame(exam_data,[labels])
 print(df)
